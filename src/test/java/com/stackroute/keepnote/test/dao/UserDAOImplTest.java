@@ -117,6 +117,7 @@ public class UserDAOImplTest {
 		userDAO.registerUser(user);
 		@SuppressWarnings("unused")
 		boolean validatedUser = userDAO.validateUser("George3706", "123456");
+		System.out.println(validatedUser+"check all the ");
 
 	}
 
